@@ -27,9 +27,6 @@
 	name = Richard Harrah
 	email = topplethenunnery@gmail.com
 
-[includeIf "gitdir:~/github/singlestone/"]
-  path = ~/.gitconfig-singlestone
-
 [push]
 	autoSetupRemote = true
 
