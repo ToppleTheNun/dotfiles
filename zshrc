@@ -39,7 +39,7 @@ antigen apply
 
 eval "$(starship init zsh)"
 
-source "$(brew --prefix asdf)/libexec/asdf.sh"
+eval "$(mise activate zsh)"
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-source <(pkgx --shellcode)  #docs.pkgx.sh/shellcode
+eval "$(pkgx --quiet dev --shellcode)"  # https://github.com/pkgxdev/dev
